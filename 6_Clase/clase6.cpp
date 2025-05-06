@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 int main(){
-    double SALARY,ISSS,AFP,NETSALARY,RENT,TOTAL,TOTALDISCOUNT;
+    double BASE,SALARY,ISSS,AFP,NETSALARY,RENT,TOTAL,TOTALDISCOUNT;
     int OPTION;
     cout<<"Enter your current salary: ";
     cin >> SALARY;
-    
+
     //Menú de opciones
     cout <<"-----Menu-----" <<endl;
     cout <<"1.ISSS" <<endl;
@@ -34,12 +34,13 @@ int main(){
         switch(OPTION){
         case 1:
             cout <<"Your salary: " <<SALARY <<endl;
-            cout <<"Your discount: " << ISSS <<endl;
-            if (ISSS <= 30){
-                cout <<"if the discount applies";
-            }else{
-                cout <<"no discount applies";
+            if(SALARY > 100){
+                SALARY = 100;
             }
+            if (ISSS > 30){
+                ISSS = 30;
+            } 
+            cout <<"Your discount: " << ISSS <<endl;
             break;
         case 2:
             cout <<"Your salary: " <<SALARY <<endl;
