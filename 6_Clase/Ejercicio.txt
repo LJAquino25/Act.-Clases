@@ -1,0 +1,16 @@
+EJERCICIO
+Desarrollo un programa en c++, que solicite al usuario ingresar su salario mensual bruto 
+y luego le permita calcular distintitos descuentos obligatorios, el programa deberá tener un menú interactivo, 
+
+1 calcular el descuento por seguro social, se aplica un 3% sobre el salario, 
+pero con un topo máximo de 30 dólares y solo sobre los primeros 100 del salario 
+
+2 calcular el descuento por afp, se aplica 7.25% sobre el salario bruto,
+
+3 calcular la renta, se calcula sobre el salario neto después del seguro social y afp, 
+aplicando diferentes tramos, 472.99 dólares exentó de 473 a 895.24 se le aplica el 10% de 895.25 dólares a 2038.10 
+dolares se le aplica el 20%, más de 2038.10 dólares se le aplica el 30%
+
+4 calcular el total de todos los descuentos y mostrar el monto restante luego de aplicar seguro social, afp y renta
+ 
+5 salir del programa
