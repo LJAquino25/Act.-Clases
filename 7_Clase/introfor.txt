@@ -1,0 +1,36 @@
+introduccion for
+imprimir numero del 1 al 1000
+
+int n = 0, a;             declarar variables a cero 
+
+
+estructura de fo
+for ( declarar varible int = i iteriador; condicion limite superior; iterador incrementar o reducir)
+    (int i=1;i<=1000 ;i++)
+    interador comienza en 1;  i limite hasta 1000 iterador; incrementa en 1
+    i es menor que mil si se cumple la condicion, asi hasta el limite 
+    dinamico, no quemar datos
+    dinamino pedirle al usuario un datos que sera el limite 
+
+
+    += sumar el valor de la derecha a la variable izquierda 
+    != diferente de 
+    == 
+    = 
+    bool
+    pow 
+
+
+    numero primo = cuando se divide en si mismo y uno 
+    menor o igual a 1 no es primo
+
+    automatizar las cosas
+
+
+    for dentro de otro fors puede usarse
+    
+
+
+    char comillas simples '' alt +39
+    letra = 'a'
+    
