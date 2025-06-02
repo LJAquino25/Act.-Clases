@@ -1,0 +1,15 @@
+arreglo multiples datos guardado ahi 
+
+array int capacidad de guardad n valores
+arreglo posiciones de 0 para adelante
+siempre inicia en 0
+
+int numeros [5 espacios] = {1, 2, 3, 4, 5}
+numero uno en posicion 0 y asi sucesivo
+
+
+arreglos
+
+int numeros
+char letras
+string ....
