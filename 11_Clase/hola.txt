@@ -1,0 +1,7 @@
+funciones: 
+toda funcion se declaran arriba de la funcion main
+
+
+
+
+.H investigar 
